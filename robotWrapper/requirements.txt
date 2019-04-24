@@ -1,0 +1,6 @@
+docutils==0.14
+MinimalModbus==0.7
+pexpect==4.6.0
+ptyprocess==0.6.0
+pyserial==3.4
+robotframework==3.1

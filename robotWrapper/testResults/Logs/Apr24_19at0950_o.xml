@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1 (Python 3.7.2 on win32)" generated="20190424 09:50:41.158" rpa="false">
+<suite id="s1" name="Tests" source="C:\Users\rechegaray\Desktop\robotWrapper\tests">
+<suite id="s1-s1" name="Ipi" source="C:\Users\rechegaray\Desktop\robotWrapper\tests\ipi">
+<suite id="s1-s1-s1" name="V1" source="C:\Users\rechegaray\Desktop\robotWrapper\tests\ipi\v1.robot">
+<test id="s1-s1-s1-t1" name="Stub Test">
+<kw name="Get Time" library="BuiltIn">
+<doc>Returns the given time in the requested format.</doc>
+<assign>
+<var>${time}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.207" level="INFO">${time} = 2019-04-24 09:50:41</msg>
+<status status="PASS" starttime="20190424 09:50:41.207" endtime="20190424 09:50:41.208"></status>
+</kw>
+<kw name="Set Suite Metadata" library="BuiltIn">
+<doc>Sets metadata for the current test suite.</doc>
+<arguments>
+<arg>Time</arg>
+<arg>${time}</arg>
+</arguments>
+<msg timestamp="20190424 09:50:41.208" level="INFO">Set suite metadata 'Time' to value '2019-04-24 09:50:41'.</msg>
+<status status="PASS" starttime="20190424 09:50:41.208" endtime="20190424 09:50:41.208"></status>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<arguments>
+<arg>\r\n Test Description:</arg>
+</arguments>
+<assign>
+<var>${my_doc}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.209" level="INFO">${my_doc} = 
+Test Description:</msg>
+<status status="PASS" starttime="20190424 09:50:41.208" endtime="20190424 09:50:41.209"></status>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<arguments>
+<arg>${my_doc}</arg>
+<arg>\n - Stub Test</arg>
+</arguments>
+<assign>
+<var>${my_doc}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.209" level="INFO">${my_doc} = 
+Test Description: 
+- Stub Test</msg>
+<status status="PASS" starttime="20190424 09:50:41.209" endtime="20190424 09:50:41.209"></status>
+</kw>
+<kw name="Set Test Documentation" library="BuiltIn">
+<doc>Sets documentation for the current test case.</doc>
+<arguments>
+<arg>${my_doc}</arg>
+</arguments>
+<msg timestamp="20190424 09:50:41.210" level="INFO">Set test documentation to:
+
+Test Description: 
+- Stub Test</msg>
+<status status="PASS" starttime="20190424 09:50:41.210" endtime="20190424 09:50:41.210"></status>
+</kw>
+<doc>
+Test Description: 
+- Stub Test</doc>
+<tags>
+<tag>IPI</tag>
+<tag>Stub</tag>
+<tag>v1</tag>
+</tags>
+<status status="PASS" starttime="20190424 09:50:41.206" endtime="20190424 09:50:41.210" critical="yes"></status>
+</test>
+<doc>Subsuite 1</doc>
+<metadata>
+<item name="Time">2019-04-24 09:50:41</item>
+</metadata>
+<status status="PASS" starttime="20190424 09:50:41.201" endtime="20190424 09:50:41.212"></status>
+</suite>
+<suite id="s1-s1-s2" name="V2" source="C:\Users\rechegaray\Desktop\robotWrapper\tests\ipi\v2.robot">
+<test id="s1-s1-s2-t1" name="Stub Test">
+<kw name="Get Time" library="BuiltIn">
+<doc>Returns the given time in the requested format.</doc>
+<assign>
+<var>${time}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.214" level="INFO">${time} = 2019-04-24 09:50:41</msg>
+<status status="PASS" starttime="20190424 09:50:41.214" endtime="20190424 09:50:41.214"></status>
+</kw>
+<kw name="Set Suite Metadata" library="BuiltIn">
+<doc>Sets metadata for the current test suite.</doc>
+<arguments>
+<arg>Time</arg>
+<arg>${time}</arg>
+</arguments>
+<msg timestamp="20190424 09:50:41.214" level="INFO">Set suite metadata 'Time' to value '2019-04-24 09:50:41'.</msg>
+<status status="PASS" starttime="20190424 09:50:41.214" endtime="20190424 09:50:41.214"></status>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<arguments>
+<arg>\r\n Test Description:</arg>
+</arguments>
+<assign>
+<var>${my_doc}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.214" level="INFO">${my_doc} = 
+Test Description:</msg>
+<status status="PASS" starttime="20190424 09:50:41.214" endtime="20190424 09:50:41.214"></status>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<arguments>
+<arg>${my_doc}</arg>
+<arg>\n - Stub Test</arg>
+</arguments>
+<assign>
+<var>${my_doc}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.214" level="INFO">${my_doc} = 
+Test Description: 
+- Stub Test</msg>
+<status status="PASS" starttime="20190424 09:50:41.214" endtime="20190424 09:50:41.214"></status>
+</kw>
+<kw name="Set Test Documentation" library="BuiltIn">
+<doc>Sets documentation for the current test case.</doc>
+<arguments>
+<arg>${my_doc}</arg>
+</arguments>
+<msg timestamp="20190424 09:50:41.214" level="INFO">Set test documentation to:
+
+Test Description: 
+- Stub Test</msg>
+<status status="PASS" starttime="20190424 09:50:41.214" endtime="20190424 09:50:41.214"></status>
+</kw>
+<doc>
+Test Description: 
+- Stub Test</doc>
+<tags>
+<tag>IPI</tag>
+<tag>Stub</tag>
+<tag>v2</tag>
+</tags>
+<status status="PASS" starttime="20190424 09:50:41.214" endtime="20190424 09:50:41.214" critical="yes"></status>
+</test>
+<doc>Subsuite 2</doc>
+<metadata>
+<item name="Time">2019-04-24 09:50:41</item>
+</metadata>
+<status status="PASS" starttime="20190424 09:50:41.214" endtime="20190424 09:50:41.214"></status>
+</suite>
+<suite id="s1-s1-s3" name="V3" source="C:\Users\rechegaray\Desktop\robotWrapper\tests\ipi\v3.robot">
+<test id="s1-s1-s3-t1" name="Stub Test">
+<kw name="Get Time" library="BuiltIn">
+<doc>Returns the given time in the requested format.</doc>
+<assign>
+<var>${time}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.230" level="INFO">${time} = 2019-04-24 09:50:41</msg>
+<status status="PASS" starttime="20190424 09:50:41.230" endtime="20190424 09:50:41.230"></status>
+</kw>
+<kw name="Set Suite Metadata" library="BuiltIn">
+<doc>Sets metadata for the current test suite.</doc>
+<arguments>
+<arg>Time</arg>
+<arg>${time}</arg>
+</arguments>
+<msg timestamp="20190424 09:50:41.233" level="INFO">Set suite metadata 'Time' to value '2019-04-24 09:50:41'.</msg>
+<status status="PASS" starttime="20190424 09:50:41.233" endtime="20190424 09:50:41.233"></status>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<arguments>
+<arg>\r\n Test Description:</arg>
+</arguments>
+<assign>
+<var>${my_doc}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.234" level="INFO">${my_doc} = 
+Test Description:</msg>
+<status status="PASS" starttime="20190424 09:50:41.234" endtime="20190424 09:50:41.234"></status>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<arguments>
+<arg>${my_doc}</arg>
+<arg>\n - Stub Test</arg>
+</arguments>
+<assign>
+<var>${my_doc}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.234" level="INFO">${my_doc} = 
+Test Description: 
+- Stub Test</msg>
+<status status="PASS" starttime="20190424 09:50:41.234" endtime="20190424 09:50:41.234"></status>
+</kw>
+<kw name="Set Test Documentation" library="BuiltIn">
+<doc>Sets documentation for the current test case.</doc>
+<arguments>
+<arg>${my_doc}</arg>
+</arguments>
+<msg timestamp="20190424 09:50:41.234" level="INFO">Set test documentation to:
+
+Test Description: 
+- Stub Test</msg>
+<status status="PASS" starttime="20190424 09:50:41.234" endtime="20190424 09:50:41.234"></status>
+</kw>
+<doc>
+Test Description: 
+- Stub Test</doc>
+<tags>
+<tag>IPI</tag>
+<tag>Stub</tag>
+<tag>v3</tag>
+</tags>
+<status status="PASS" starttime="20190424 09:50:41.214" endtime="20190424 09:50:41.234" critical="yes"></status>
+</test>
+<doc>Subsuite 3</doc>
+<metadata>
+<item name="Time">2019-04-24 09:50:41</item>
+</metadata>
+<status status="PASS" starttime="20190424 09:50:41.214" endtime="20190424 09:50:41.234"></status>
+</suite>
+<status status="PASS" starttime="20190424 09:50:41.199" endtime="20190424 09:50:41.234"></status>
+</suite>
+<suite id="s1-s2" name="Logger" source="C:\Users\rechegaray\Desktop\robotWrapper\tests\logger">
+<suite id="s1-s2-s1" name="V1" source="C:\Users\rechegaray\Desktop\robotWrapper\tests\logger\v1.robot">
+<test id="s1-s2-s1-t1" name="Stub Test">
+<kw name="Get Time" library="BuiltIn">
+<doc>Returns the given time in the requested format.</doc>
+<assign>
+<var>${time}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.250" level="INFO">${time} = 2019-04-24 09:50:41</msg>
+<status status="PASS" starttime="20190424 09:50:41.250" endtime="20190424 09:50:41.250"></status>
+</kw>
+<kw name="Set Suite Metadata" library="BuiltIn">
+<doc>Sets metadata for the current test suite.</doc>
+<arguments>
+<arg>Time</arg>
+<arg>${time}</arg>
+</arguments>
+<msg timestamp="20190424 09:50:41.250" level="INFO">Set suite metadata 'Time' to value '2019-04-24 09:50:41'.</msg>
+<status status="PASS" starttime="20190424 09:50:41.250" endtime="20190424 09:50:41.250"></status>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<arguments>
+<arg>\r\n Test Description:</arg>
+</arguments>
+<assign>
+<var>${my_doc}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.250" level="INFO">${my_doc} = 
+Test Description:</msg>
+<status status="PASS" starttime="20190424 09:50:41.250" endtime="20190424 09:50:41.250"></status>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<arguments>
+<arg>${my_doc}</arg>
+<arg>\n - Stub Test</arg>
+</arguments>
+<assign>
+<var>${my_doc}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.250" level="INFO">${my_doc} = 
+Test Description: 
+- Stub Test</msg>
+<status status="PASS" starttime="20190424 09:50:41.250" endtime="20190424 09:50:41.250"></status>
+</kw>
+<kw name="Set Test Documentation" library="BuiltIn">
+<doc>Sets documentation for the current test case.</doc>
+<arguments>
+<arg>${my_doc}</arg>
+</arguments>
+<msg timestamp="20190424 09:50:41.250" level="INFO">Set test documentation to:
+
+Test Description: 
+- Stub Test</msg>
+<status status="PASS" starttime="20190424 09:50:41.250" endtime="20190424 09:50:41.250"></status>
+</kw>
+<doc>
+Test Description: 
+- Stub Test</doc>
+<tags>
+<tag>Logger</tag>
+<tag>Stub</tag>
+<tag>v1</tag>
+</tags>
+<status status="PASS" starttime="20190424 09:50:41.234" endtime="20190424 09:50:41.250" critical="yes"></status>
+</test>
+<doc>Subsuite 1</doc>
+<metadata>
+<item name="Time">2019-04-24 09:50:41</item>
+</metadata>
+<status status="PASS" starttime="20190424 09:50:41.234" endtime="20190424 09:50:41.250"></status>
+</suite>
+<suite id="s1-s2-s2" name="V2" source="C:\Users\rechegaray\Desktop\robotWrapper\tests\logger\v2.robot">
+<test id="s1-s2-s2-t1" name="Stub Test">
+<kw name="Get Time" library="BuiltIn">
+<doc>Returns the given time in the requested format.</doc>
+<assign>
+<var>${time}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.250" level="INFO">${time} = 2019-04-24 09:50:41</msg>
+<status status="PASS" starttime="20190424 09:50:41.250" endtime="20190424 09:50:41.250"></status>
+</kw>
+<kw name="Set Suite Metadata" library="BuiltIn">
+<doc>Sets metadata for the current test suite.</doc>
+<arguments>
+<arg>Time</arg>
+<arg>${time}</arg>
+</arguments>
+<msg timestamp="20190424 09:50:41.250" level="INFO">Set suite metadata 'Time' to value '2019-04-24 09:50:41'.</msg>
+<status status="PASS" starttime="20190424 09:50:41.250" endtime="20190424 09:50:41.250"></status>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<arguments>
+<arg>\r\n Test Description:</arg>
+</arguments>
+<assign>
+<var>${my_doc}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.265" level="INFO">${my_doc} = 
+Test Description:</msg>
+<status status="PASS" starttime="20190424 09:50:41.265" endtime="20190424 09:50:41.265"></status>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<arguments>
+<arg>${my_doc}</arg>
+<arg>\n - Stub Test</arg>
+</arguments>
+<assign>
+<var>${my_doc}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.265" level="INFO">${my_doc} = 
+Test Description: 
+- Stub Test</msg>
+<status status="PASS" starttime="20190424 09:50:41.265" endtime="20190424 09:50:41.265"></status>
+</kw>
+<kw name="Set Test Documentation" library="BuiltIn">
+<doc>Sets documentation for the current test case.</doc>
+<arguments>
+<arg>${my_doc}</arg>
+</arguments>
+<msg timestamp="20190424 09:50:41.265" level="INFO">Set test documentation to:
+
+Test Description: 
+- Stub Test</msg>
+<status status="PASS" starttime="20190424 09:50:41.265" endtime="20190424 09:50:41.265"></status>
+</kw>
+<doc>
+Test Description: 
+- Stub Test</doc>
+<tags>
+<tag>Logger</tag>
+<tag>Stub</tag>
+<tag>v2</tag>
+</tags>
+<status status="PASS" starttime="20190424 09:50:41.250" endtime="20190424 09:50:41.265" critical="yes"></status>
+</test>
+<doc>Subsuite 2</doc>
+<metadata>
+<item name="Time">2019-04-24 09:50:41</item>
+</metadata>
+<status status="PASS" starttime="20190424 09:50:41.250" endtime="20190424 09:50:41.265"></status>
+</suite>
+<suite id="s1-s2-s3" name="V3" source="C:\Users\rechegaray\Desktop\robotWrapper\tests\logger\v3.robot">
+<test id="s1-s2-s3-t1" name="Stub Test">
+<kw name="Get Time" library="BuiltIn">
+<doc>Returns the given time in the requested format.</doc>
+<assign>
+<var>${time}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.265" level="INFO">${time} = 2019-04-24 09:50:41</msg>
+<status status="PASS" starttime="20190424 09:50:41.265" endtime="20190424 09:50:41.265"></status>
+</kw>
+<kw name="Set Suite Metadata" library="BuiltIn">
+<doc>Sets metadata for the current test suite.</doc>
+<arguments>
+<arg>Time</arg>
+<arg>${time}</arg>
+</arguments>
+<msg timestamp="20190424 09:50:41.265" level="INFO">Set suite metadata 'Time' to value '2019-04-24 09:50:41'.</msg>
+<status status="PASS" starttime="20190424 09:50:41.265" endtime="20190424 09:50:41.265"></status>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<arguments>
+<arg>\r\n Test Description:</arg>
+</arguments>
+<assign>
+<var>${my_doc}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.265" level="INFO">${my_doc} = 
+Test Description:</msg>
+<status status="PASS" starttime="20190424 09:50:41.265" endtime="20190424 09:50:41.265"></status>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<arguments>
+<arg>${my_doc}</arg>
+<arg>\n - Stub Test</arg>
+</arguments>
+<assign>
+<var>${my_doc}</var>
+</assign>
+<msg timestamp="20190424 09:50:41.265" level="INFO">${my_doc} = 
+Test Description: 
+- Stub Test</msg>
+<status status="PASS" starttime="20190424 09:50:41.265" endtime="20190424 09:50:41.265"></status>
+</kw>
+<kw name="Set Test Documentation" library="BuiltIn">
+<doc>Sets documentation for the current test case.</doc>
+<arguments>
+<arg>${my_doc}</arg>
+</arguments>
+<msg timestamp="20190424 09:50:41.281" level="INFO">Set test documentation to:
+
+Test Description: 
+- Stub Test</msg>
+<status status="PASS" starttime="20190424 09:50:41.265" endtime="20190424 09:50:41.281"></status>
+</kw>
+<doc>
+Test Description: 
+- Stub Test</doc>
+<tags>
+<tag>Logger</tag>
+<tag>Stub</tag>
+<tag>v3</tag>
+</tags>
+<status status="PASS" starttime="20190424 09:50:41.265" endtime="20190424 09:50:41.281" critical="yes"></status>
+</test>
+<doc>Subsuite 3</doc>
+<metadata>
+<item name="Time">2019-04-24 09:50:41</item>
+</metadata>
+<status status="PASS" starttime="20190424 09:50:41.265" endtime="20190424 09:50:41.281"></status>
+</suite>
+<status status="PASS" starttime="20190424 09:50:41.234" endtime="20190424 09:50:41.281"></status>
+</suite>
+<status status="PASS" starttime="20190424 09:50:41.171" endtime="20190424 09:50:41.281"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="6" fail="0">Critical Tests</stat>
+<stat pass="6" fail="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="3" fail="0">IPI</stat>
+<stat pass="3" fail="0">Logger</stat>
+<stat pass="6" fail="0">Stub</stat>
+<stat pass="2" fail="0">v1</stat>
+<stat pass="2" fail="0">v2</stat>
+<stat pass="2" fail="0">v3</stat>
+</tag>
+<suite>
+<stat pass="6" fail="0" id="s1" name="Tests">Tests</stat>
+<stat pass="3" fail="0" id="s1-s1" name="Ipi">Tests.Ipi</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="V1">Tests.Ipi.V1</stat>
+<stat pass="1" fail="0" id="s1-s1-s2" name="V2">Tests.Ipi.V2</stat>
+<stat pass="1" fail="0" id="s1-s1-s3" name="V3">Tests.Ipi.V3</stat>
+<stat pass="3" fail="0" id="s1-s2" name="Logger">Tests.Logger</stat>
+<stat pass="1" fail="0" id="s1-s2-s1" name="V1">Tests.Logger.V1</stat>
+<stat pass="1" fail="0" id="s1-s2-s2" name="V2">Tests.Logger.V2</stat>
+<stat pass="1" fail="0" id="s1-s2-s3" name="V3">Tests.Logger.V3</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
